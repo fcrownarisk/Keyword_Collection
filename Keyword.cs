@@ -1,3 +1,69 @@
+    /* ============================================
+       COMPLETE LIST OF C# KEYWORDS
+       ============================================ */
+    /*
+    C# Keywords by Category:
+    
+    ACCESS MODIFIERS:
+    public, private, protected, internal, protected internal, private protected
+    
+    CLASS & STRUCT:
+    class, struct, interface, enum, delegate, event, record (C# 9+)
+    
+    INHERITANCE:
+    : (inheritance), base, new, virtual, override, abstract, sealed
+    
+    TYPE MODIFIERS:
+    static, readonly, const, volatile, unsafe, fixed, stackalloc
+    ref, out, in, params, async, await, yield, partial
+    
+    MEMBER DEFINITION:
+    get, set, add, remove, value, operator, explicit, implicit, extern
+    
+    CONTROL FLOW:
+    if, else, switch, case, default, for, foreach, in, while, do, break, continue, goto, return
+    
+    EXCEPTION HANDLING:
+    try, catch, finally, throw, when (C# 6+)
+    
+    NAMESPACE & USING:
+    namespace, using, alias (using alias =)
+    
+    TYPE OPERATORS:
+    is, as, sizeof, typeof, nameof (C# 6+), default
+    
+    GENERICS:
+    where, <T>
+    
+    NULL HANDLING:
+    ?? (null-coalescing), ?. (null-conditional), ?[] (null-conditional index)
+    ??= (null-coalescing assignment C# 8+), ? (nullable C# 8+), ! (null-forgiving C# 8+)
+    
+    PATTERN MATCHING (C# 7+):
+    is (with patterns), switch (expression), var (in patterns)
+    
+    RANGES & INDICES (C# 8+):
+    .. (range), ^ (index from end)
+    
+    ASYNC/ITERATORS:
+    async, await, yield return, yield break, IAsyncEnumerable<T> (C# 8+)
+    
+    MISCELLANEOUS:
+    lock, checked, unchecked, void, var, dynamic, object, string, bool, byte, sbyte, char,
+    decimal, double, float, int, uint, long, ulong, short, ushort, nint, nuint (C# 9+)
+    
+    CONTEXTUAL KEYWORDS:
+    add, alias, ascending, async, await, by, descending, dynamic, equals, from, get, global,
+    group, into, join, let, nameof, notnull (C# 8+), on, orderby, partial, remove, select,
+    set, unmanaged (C# 7.3+), value, var, when, where, yield
+    
+    RESERVED BUT NOT USED:
+    __arglist, __makeref, __reftype, __refvalue
+    
+    C# 10+ ADDITIONS:
+    file (access modifier), global using, record struct, with expressions enhancements
+    */
+
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -335,4 +401,5 @@ namespace KeywordsComparison
             Application.Run(new MainForm());
         }
     }
+
 }
