@@ -1,3 +1,56 @@
+/* ============================================
+   COMPLETE LIST OF C++ KEYWORDS (C++20)
+   ============================================
+
+   Traditional Keywords:
+   alignas        alignof       and           and_eq       
+   asm            auto          bitand        bitor        
+   bool           break         case          catch        
+   char           char8_t       char16_t      char32_t     
+   class          compl         concept       const        
+   consteval      constexpr     const_cast    continue     
+   co_await       co_return     co_yield      decltype     
+   default        delete        do            double       
+   dynamic_cast   else          enum          explicit     
+   export         extern        false         float        
+   for            friend        goto          if           
+   inline         int           long          mutable      
+   namespace      new           noexcept      not          
+   not_eq         nullptr       operator      or           
+   or_eq          private       protected     public       
+   register       reinterpret_cast require    return       
+   short          signed        sizeof        static       
+   static_assert  static_cast   struct        switch       
+   template       this          thread_local  throw        
+   true           try           typedef       typeid       
+   typename       union         unsigned      using        
+   virtual        void          volatile      wchar_t      
+   while          xor           xor_eq
+
+   C++20 Additions:
+   char8_t        concept       consteval     co_await     
+   co_return      co_yield      requires
+
+   Alternative Tokens (digraphs/trigraphs):
+   and     (&&)   bitand  (&)   bitor   (|)   compl   (~)
+   not     (!)    not_eq  (!=)  or      (||)  or_eq   (|=)
+   xor     (^)    xor_eq  (^=)
+
+   Contextual Keywords (have special meaning in specific contexts):
+   final          override      import        module       
+   export
+
+   ============================================
+   Notes:
+   - C++11 added: alignas, alignof, char16_t, char32_t, constexpr,
+                  decltype, noexcept, nullptr, static_assert, thread_local
+   - C++14 added: [[deprecated]]
+   - C++17 added: [[maybe_unused]], [[nodiscard]], [[fallthrough]]
+   - C++20 added: char8_t, concept, consteval, co_await, co_return,
+                  co_yield, requires, import, module
+   - Some keywords like 'requires' and 'concept' require C++20
+   - 'export' for modules is different from traditional 'export'
+   ============================================ */
 1 alignas: 指定类型或对象的对齐要求
 2 alignof: 查询类型的对齐要求
 3 and: 逻辑与运算符的替代表示
@@ -80,4 +133,5 @@
 80 wchar_t: 宽字符类型
 81 while: 循环语句
 82 xor: 按位异或运算符的替代表示
+
 83 xor_eq: 按位异或赋值运算符的替代表示
